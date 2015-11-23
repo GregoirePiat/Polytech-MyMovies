@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="MyMovies, site pour le projet HTML/CSS de Polytech Lyon en ISI1">
+    <meta name="author" content="Grégoire Piat">
+
+    <title>MyMovies</title>
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/Favicon/favicon.ico" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/freelancer.css">
+
+
+    <meta name="viewport" content="width=device-width" />
+    <link href="lib/bootstrapcss/bootstrap.min.css" rel="stylesheet" />
+
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="col-md-10">
+                <!-- Partie de la barre toujours affichée -->
+                <div class="navbar-header">
+                    <!-- Bouton d'accès affiché à droite si la zone d'affichage est trop petite -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-target">
+                        <span class="sr-only">Activer la navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-film"></span> MyMovies</a>
+                </div>
+                <!-- Partie de la barre masquée si la surface d'affichage est insuffisante -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-target">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Ajouter un film</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Administration</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bienvenue, Grégoire <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Profil</a></li>
+                                <li><a href="#">Quitter</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="col-md-11">
+            <h2><a href="movie.html">Le Loup de Wall Street</a></h2>
+            <p>Le loup de Wall Street(The Wolf of Wall Street) est un film américain réalisé par Martin Scorsese sorti en 2013. Adaptation de l'autobiographie éponyme de Jordan Belfort, il s'agit du plus gros succès commercial de Martin Scorsese.</p>
+        </div>
+        <div class="col-md-11">
+            <h2>Vice-Versa</h2>
+            <p>Vice-Versa ou Sens dessus dessous au Québec (Inside Out) est le 133ème long-métrage d'animation des studios Disney et le 15ème long-métrage de Pixar. Réalisé en images de synthèse par Pete Docter et Ronnie del Carmen, il est sortie en 2015</p>
+        </div>
+        <div class="col-md-11">
+            <h2>Babysitting</h2>
+            <p>Babysitting est un film français réalisé par Philippe Lacheau et Nicolas Benamou, sorti en 2014. Il s'agit du premier film interprété par une grande partie de La Bande à Fifi, troupe révélée par Canal+. C'est le premier film français à allier prises de vues traditionnelles et found footage, à l'image de Projet X.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <footer class="col-md-12">
+            <p class="text-center">
+                Construit avec <span class="glyphicon glyphicon-heart"></span> par <a href=http://www.gregoirepiat.fr target="blank">Grégoire Piat</a>
+            </p>
+        </footer>
+    </div>
+
+
+    <script src="lib/jquery/jquery-2.1.4.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
